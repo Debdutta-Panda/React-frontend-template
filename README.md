@@ -1,4 +1,4 @@
-# Download latest code as zip(dont clone) and use
+# Download latest code from [here](https://github.com/Debdutta-Panda/React-frontend-template/archive/refs/tags/latest.zip)
 
 # Libraries/Frameworks/Language
 This project structure/template majorly uses the followings
