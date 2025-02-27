@@ -1,4 +1,4 @@
-# Download as zip(dont clone) and use
+# Download latest code as zip(dont clone) and use
 
 # Libraries/Frameworks/Language
 This project structure/template majorly uses the followings
