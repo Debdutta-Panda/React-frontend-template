@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+	--color-myCustomColor-600: oklch(0.53 0.12 118.34);
+}
+
+@layer base {
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  h2 {
+    font-size: var(--text-xl);
+  }
+}
+
+@layer components {
+  .card {
+    background-color: var(--color-red-50);
+    border-radius: var(--rounded-lg);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-xl);
+  }
+}
+
+@utility content-auto {
+  content-visibility: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,43 @@
+.dashboardContainer {
+	margin: 0;
+	display: grid;
+	grid-template-columns: auto 1fr; /* Sidebar on the left, content on the right */
+	grid-template-rows: 100vh; /* Full height */
+	height: 100vh;
+}
+
+.sidebar {
+	background-color: white;
+	border-right: 1px solid grey;
+}
+
+.main-content {
+	display: grid;
+	grid-template-rows: 60px 1fr 30px; /* Topbar, Body, Footer */
+	height: 100vh;
+}
+
+.topbar {
+	background-color: white;
+	padding: 5px;
+	border-bottom: 1px solid lightgray;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.body {
+	padding: 20px;
+	background-color: white;
+	overflow-y: auto;
+}
+
+.footer {
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px solid lightgray;
+	font-size: 12px;
+}
