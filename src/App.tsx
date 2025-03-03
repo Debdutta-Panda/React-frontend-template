@@ -18,11 +18,12 @@ function App() {
 	return (
 		<div className="w-full h-full">
 			<Routes>
-				<Route element={<AnimatedLayout><AuthLayout /></AnimatedLayout>}>
-					<Route
+			<Route
 						path="login"
 						element={<Login />}
 					/>
+				<Route element={<AnimatedLayout><AuthLayout /></AnimatedLayout>}>
+					
 					<Route
 						path="register"
 						element={<Registration />}

@@ -5,6 +5,7 @@ import { ChevronDown, ChevronRight, House } from 'lucide-react';
 import SidebarComponent from "../../components/sidebar/sidebar";
 import { classNames } from "primereact/utils";
 import "./dashboard.css"
+import { Button } from "primereact/button";
 
 const menuItems: SidebarMenuItemData[] = [
 	{ component: <h1>Hello</h1> },
@@ -81,6 +82,9 @@ export default function Dashboard() {
 	return (
 		<div className="dashboardContainer">
 			<div className="sidebar">
+				<Button label="Increase Bears" onClick={(e)=>{
+					increasePopulation()
+				}}/>
 				<SidebarComponent
 					collpased={false}
 					menuItems={menuItems}
